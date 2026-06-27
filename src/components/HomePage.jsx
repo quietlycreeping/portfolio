@@ -9,7 +9,6 @@
 const HomePage = () => {
   return (
     <>
-    <Header/>
       <div className="main-content">
         <p>Home Page here</p>
       </div>         
