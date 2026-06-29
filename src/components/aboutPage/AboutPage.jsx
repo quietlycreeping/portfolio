@@ -5,17 +5,17 @@
 ==========================================================*/
 
 //======Components===========================
-import Header from "./header-footer/Header"
+import Header from "../header-footer/Header"
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <>
       <Header/>
       <div className="main-content">
-        <p>Home Page here</p>
+        <p>About Page here</p>
       </div>         
     </>
   )
 }
 
-export default HomePage
+export default AboutPage

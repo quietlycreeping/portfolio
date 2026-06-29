@@ -6,6 +6,7 @@
 import { Routes, Route, HashRouter, Link } from "react-router-dom";
 //======Pages===========================
 import HomePage from "./components/HomePage";
+import AboutPage from "./components/aboutPage/AboutPage";
 //======================================
 
 const App = () => (
@@ -13,6 +14,7 @@ const App = () => (
   <HashRouter>
     <Routes>
       <Route path="/" element={<HomePage/>}/>
+      <Route path="/about" element={<AboutPage/>}/>
     </Routes>
   </HashRouter>
   </>
