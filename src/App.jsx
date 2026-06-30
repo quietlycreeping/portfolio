@@ -16,7 +16,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route path="/about" element={<AboutPage/>}/>
-      <Route path="*" element={<PageNotFound/>}/>
+      <Route path="/*" element={<PageNotFound/>}/>
     </Routes>
   </HashRouter>
   </>
