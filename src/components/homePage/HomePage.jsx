@@ -5,7 +5,7 @@
 ==========================================================*/
 
 //======Components===========================
-import Header from "./header-footer/Header"
+import Header from "../header-footer/Header"
 
 const HomePage = () => {
   return (
