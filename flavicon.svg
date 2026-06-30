@@ -1,57 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="46"
-   height="46"
-   viewBox="0 0 12.170833 12.170833"
-   version="1.1"
-   id="svg1"
-   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
-   sodipodi:docname="test2.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#505050"
-     bordercolor="#ffffff"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="1"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     inkscape:zoom="3.011083"
-     inkscape:cx="18.597959"
-     inkscape:cy="5.8118623"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
-  <defs
-     id="defs1" />
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-101.33542,-136.78959)">
-    <g
-       id="g33"
-       transform="matrix(0.27110687,0,0,0.27110687,100.73606,136.86456)">
-      <path
-         id="rect32"
-         style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:1.05134;stroke-linecap:square;stroke-miterlimit:10"
-         d="M 16.251486,1.3106272 V 15.429768 H 2.6987515 a 13.83582,14.1194 0 0 0 6.9179687,12.226563 13.83582,14.1194 0 0 0 13.8359378,0 13.83582,14.1194 0 0 0 6.917968,-12.226563 V 1.3106272 Z" />
-      <circle
-         style="fill:#e2a9f1;fill-opacity:0.55;stroke-width:0.751584;stroke-linecap:square;stroke-miterlimit:10"
-         id="path31"
-         cx="31.615934"
-         cy="28.029446"
-         r="15" />
-    </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created with Inkscape (http://www.inkscape.org/)-->
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 12.171 12.171">
+  <g style="display:inline" transform="translate(-.6 .075)scale(.2711)">
+    <path d="M16.251 1.31v14.12H2.7a13.836 14.12 0 0 0 6.918 12.226 13.836 14.12 0 0 0 13.836 0A13.836 14.12 0 0 0 30.37 15.43V1.31Z" style="display:inline;fill:#fff;fill-opacity:1;stroke-width:1.05134;stroke-linecap:square;stroke-miterlimit:10"/>
+    <circle cx="31.616" cy="28.029" r="15" style="fill:#e2a9f1;fill-opacity:.55;stroke-width:.751584;stroke-linecap:square;stroke-miterlimit:10"/>
   </g>
 </svg>
