@@ -3,19 +3,26 @@
  Date:       July 2026
  Description: Homepage with various components
 ==========================================================*/
-
+import { useContext } from "react";
+//======Contexts===========================
+import { ViewportContext } from "../../contexts/screenSizeContext";
 //======Components===========================
 import Header from "../header-footer/Header"
 
-const HomePage = () => {
+const ProjectListPage = () => {
+  const {screenSize} = useContext(ViewportContext);
+
   return (
     <>
       <Header/>
       <div className="main-content">
-        <p>Home Page here</p>
+        <p>
+          Projects/Home Page here
+          Screen Size: {screenSize}
+        </p>
       </div>         
     </>
   )
 }
 
-export default HomePage
+export default ProjectListPage
