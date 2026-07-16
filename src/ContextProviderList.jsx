@@ -4,7 +4,7 @@
  Description: Component that holds all the context providers
 ==========================================================*/
 //======Contexts===========================
-import ViewportContextProvider from "./contexts/screenSizeContext";
+import ViewportContextProvider from "./contexts/ViewportContext.jsx";
 
 function ContextProviderList({ children }) {
   return (

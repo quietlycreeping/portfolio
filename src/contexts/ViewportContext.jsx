@@ -13,23 +13,27 @@ export const ViewportContext = createContext();
 const ViewportContextProvider = ({children}) => { 
     const [screenSize, setScreenSize] = useState();
 
-    const screenWidth = document.querySelector("#width");
-
-    const handleScreenResize = () => {
-        if (screenWidth <= 480)
-            setScreenSize("small");
+    const handleResize = () => {
+        if (window.innerWidth <= 480)
+            setScreenSize("small"); 
         else
-            setScreenSize("large");}
+            setScreenSize("large");
+        };
 
     useEffect(() => {
-        handleScreenResize;
+        window.addEventListener("resize", handleResize);
+        handleResize();
+
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
-    window.onresize = handleScreenResize;
-
+  //----- EXPORTED VALUES ---------------------------------
+    const value = {
+        screenSize
+    };
 
     return (
-    <ViewportContext.Provider value={screenSize}>
+    <ViewportContext.Provider value={value}>
         {children}
     </ViewportContext.Provider>
     );

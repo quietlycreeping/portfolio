@@ -5,9 +5,9 @@
 ==========================================================*/
 import { useContext } from "react";
 //======Contexts===========================
-import { ViewportContext } from "../../contexts/screenSizeContext";
+import {ViewportContext} from "../../contexts/ViewportContext.jsx"
 //======Components===========================
-import Header from "../header-footer/Header"
+import Header from "../header-footer/Header.jsx"
 
 const ProjectListPage = () => {
   const {screenSize} = useContext(ViewportContext);
