@@ -7,7 +7,7 @@ import { Routes, Route, HashRouter, Link } from "react-router-dom";
 //======Components===========================
 import ContextProviderList from "./ContextProviderList";
 //======Pages===========================
-import ProjectListPage from "./components/Project-HomePage/ProjectListPage";
+import ProjectListPage from "./components/projects-homePage/ProjectListPage";
 import AboutPage from "./components/aboutPage/AboutPage";
 import PageNotFound from "./components/errorPage/PageNotFound";
 //======================================
