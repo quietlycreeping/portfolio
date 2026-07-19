@@ -16,6 +16,9 @@ const ProjectListPage = () => {
     <>
       <Header/>
       <div className="main-content">
+        <h1>heading</h1>
+        <h2>subheading</h2>
+        <p>body</p>
         <p>
           Projects/Home Page here
           Screen Size: {screenSize}

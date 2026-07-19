@@ -4,19 +4,21 @@
  Description: header component
 ==========================================================*/
 import { Link } from "react-router-dom";
-  
+import { useContext } from "react";
+//======Contexts===========================
+import { ViewportContext } from "../../contexts/ViewportContext";
+//======Components===========================
+import SmallHeader from "./SmallLayout_Header";
+import LargeHeader from "./LargeLayout_Header";
+
 const Header = () =>   
-{  
+{
+  const {screenSize} = useContext(ViewportContext);
+  
   return (
     <>
-    <div id="header">
-        <nav>
-        <button><Link to="/"> Home </Link></button>
-        <button><Link to="/about"> About </Link></button>
-        </nav>
-    </div>
+      {(screenSize == "large") ? <LargeHeader/> : <SmallHeader/> };
     </>
   )
 }
-
 export default Header

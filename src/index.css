@@ -2,7 +2,6 @@
 /* subheading text */ @import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;700&display=swap');
 /* body text */ @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-/*#region =======ROOT======= */
 :root {
   --background: #FFFFFF;
   --text: #1E1E1E;
@@ -10,15 +9,48 @@
   --secondary: #EDAE49;
   --tertiary: #E2A9F1;
   --gray: #CCCCCC;
+
+  --header: "Braah One", sans-serif;
+  --subheading: "Hind", sans-serif;
+  --body: "Roboto Slab", serif;
+
 }
 
-html, body, #root {
-  height: 100%;
-  margin: 10;
-  padding: 0;
+body {
+  margin: 0;
 }
 
-.main-content {
-    min-height: 100vh;
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  min-height: 100svh;
+  line-height: 1em;
+  letter-spacing: 0.18px;
 }
-/*#endregion ROOT*/
+
+.main-content{
+  padding: 1.5em;
+}
+
+h1 {
+  font-family: var(--header);
+  font-size: 2.5rem;
+
+  color: var(--text);
+}
+
+h2 {
+  font-family: var(--subheading);
+  font-weight: 700;
+  font-size: 1.6rem;
+
+  color: var(--text);
+}
+
+p {
+  font-family: var(--body);
+  font-weight: 400;
+  font-size: 1rem;
+
+  color: var(--text);
+}
