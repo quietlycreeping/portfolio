@@ -9,6 +9,7 @@
   --secondary: #EDAE49;
   --tertiary: #E2A9F1;
   --gray: #CCCCCC;
+  --off_white: #dedede;
 
   --header: "Braah One", sans-serif;
   --subheading: "Hind", sans-serif;
@@ -18,6 +19,7 @@
 
 body {
   margin: 0;
+  background-color: var(--background);
 }
 
 #root {
@@ -29,12 +31,12 @@ body {
 }
 
 .main-content{
-  padding: 1.5em;
+  padding: 0.75em;
 }
 
 h1 {
   font-family: var(--header);
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 
   color: var(--text);
 }
@@ -53,4 +55,22 @@ p {
   font-size: 1rem;
 
   color: var(--text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text)
+}
+
+button{
+  font-size: 0.875rem;
+  font-family: var(--body);
+
+  background-color: var(--tertiary);
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover{
+  background-color: var(--secondary);
 }

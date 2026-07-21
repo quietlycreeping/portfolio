@@ -1,0 +1,35 @@
+.navbar{
+    background-color: var(--primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 3em; 
+}
+
+/*===== LEFT OF HEADER =====*/
+.header-left{
+    padding-left: 0.5em;
+}
+
+#website-title{
+    float: right;
+    color: white;
+    padding-left: 0.2em;
+}
+
+img{
+    height: 2.75rem;
+    padding-bottom: 0.5em;
+}
+
+/*===== RIGHT OF LARGE HEADER =====*/
+#header-right-large{
+    padding-right: 0.5em;
+}
+button{
+    width: 6em;
+    height: 1.75em;
+    margin: 0.3em;
+}

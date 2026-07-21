@@ -17,7 +17,7 @@ const Header = () =>
   
   return (
     <>
-      {(screenSize == "large") ? <LargeHeader/> : <SmallHeader/> };
+      {(screenSize == "large") ? <LargeHeader/> : <SmallHeader/> }
     </>
   )
 }

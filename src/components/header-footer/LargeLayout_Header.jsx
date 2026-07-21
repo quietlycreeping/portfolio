@@ -4,24 +4,30 @@
  Description: header component for wide screens
 ==========================================================*/
 import { Link } from "react-router-dom";
-import "./headerStyle.css"
+//======Files===========================
+import "./headerStyleLarge.css"
+import logo from "../../assets/logo.png";
 
 
 const LargeHeader = () =>   
 {  
   return (
-    <>
-        <p>large</p>
-    </>
+    <nav className="navbar">
+      <div className="header-left">
+        <Link to="/">
+          <img src={logo} alt="logo"/>
+        </Link>
+        <Link to="/">
+          <h1 id="website-title">Jennifer Orlando</h1>
+        </Link>
+      </div>
+      <div id="header-right-large">
+        <button><Link to="/"> Projects </Link></button>
+        <button>Resume</button>
+        <button><Link to="/about"> About Me </Link></button>
+      </div>
+    </nav>
   )
 }
 
 export default LargeHeader
-
-
-   /* <div id="header">
-        <nav>
-        <button><Link to="/"> Home </Link></button>
-        <button><Link to="/about"> About </Link></button>
-        </nav>
-    </div>*/
