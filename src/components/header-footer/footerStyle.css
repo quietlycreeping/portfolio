@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--gray);
+
+    font-family: var(--body);
+    font-size: 0.85rem;
+
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+
+.footerLinks
+{
+    display: block;
+
+    place-content: center;
+    align-content: space-around;
+}
