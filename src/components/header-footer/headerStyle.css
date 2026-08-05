@@ -1,12 +1,18 @@
-.navbar{
+nav.navbar{
     background-color: var(--primary);
+    height: 3.2em; 
 
-    height: 3em; 
+    display: grid;
+    grid-template-columns: auto auto;
+
+
 }
 
 /*===== LEFT OF HEADER =====*/
 .header-left{
     padding-left: 0.5em;
+    justify-self: start;
+    display: block;
 }
 
 #website-title{
@@ -14,15 +20,27 @@
     font-family: var(--header);
 
     color: white;
+
+    position: relative;
+    top: 0.2em;
+    margin-left: 0.2em;
 }
 
 img{
     height: 2.75rem;
+    margin: 0.2em;
+    vertical-align: middle;
 }
 
 /*===== RIGHT OF LARGE HEADER =====*/
+.header-right{
+    margin-right: 0.3em;
+    justify-self: end;
+    align-self: center;
+}
+
 button{
     width: 6em;
     height: 1.75em;
-    margin: 0.3em;
+    margin: 0.2em;
 }

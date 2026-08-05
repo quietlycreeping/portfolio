@@ -1,18 +1,32 @@
 footer{
     background-color: var(--gray);
+    height: 3em;
+    display: grid; 
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+
 
     font-family: var(--body);
-    font-size: 0.85rem;
 
     position:absolute;
     bottom:0;
     width: 100%;
 }
 
-.footerLinks
-{
-    display: block;
-
-    place-content: center;
-    align-content: space-around;
+.footerLinks{
+    align-self: center;
+    justify-self: center;
 }
+
+a{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.copyright{
+    align-self: end;
+    justify-self: center;
+    font-family: var(--body);
+    font-size: 0.85rem;
+}
+
