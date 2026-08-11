@@ -1,3 +1,28 @@
 .projectCard {
-    background-color: blue;
+
+    width: 23em;
+    text-align: center;
+    overflow: scroll;
+}
+
+#projectList{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+}
+
+h1{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+p{
+    text-align: left;
+}
+
+.projectMainImage{
+    width: 15rem;
+    height: auto;
 }

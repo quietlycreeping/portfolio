@@ -27,9 +27,9 @@ const ButtonLinks = () =>
 {
   return (
     <>
-      <button><Link to="/"> Projects </Link></button>
+      <button><Link to="/">Projects</Link></button>
       <button>Resume</button>
-      <button><Link to="/about"> About Me </Link></button>
+      <button><Link to="/about">About Me</Link></button>
     </>
   )
 }

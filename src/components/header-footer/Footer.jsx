@@ -13,9 +13,9 @@ const Footer = () =>
   return (
     <footer>
       <div className="footerLinks">
-        <a href="https://github.com/quietlycreeping">Github</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/quietlycreeping">Github</a>
         <Link to="/about">Email</Link>
-        <a href="https://www.linkedin.com/in/-jenniferorlando/">LinkedIn</a>
+        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/-jenniferorlando/">LinkedIn</a>
       </div>
       <div className="copyright">
         © J. Orlando 2026

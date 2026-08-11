@@ -14,7 +14,7 @@ const ProjectCard_Prop = (props) => {
     <Link to={link}>
     <div className="projectCard">
         <h2>{title}</h2>
-        <img src={image}/>
+        <img className="projectMainImage" src={image}/>
         <p>{body}</p>
     </div>
     </Link>

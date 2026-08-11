@@ -14,7 +14,7 @@ const ViewportContextProvider = ({children}) => {
     const [screenSize, setScreenSize] = useState();
 
     const handleResize = () => {
-        if (window.innerWidth <= 660)
+        if (window.innerWidth <= 702)
             setScreenSize("small"); 
         else
             setScreenSize("large");

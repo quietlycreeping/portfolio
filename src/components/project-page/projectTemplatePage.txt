@@ -10,18 +10,18 @@ import Header from "../header-footer/Header.jsx"
 import Footer from "../header-footer/Footer.jsx";
 import PhotoComp_Prop from "./PhotoComp_Prop.jsx";
 //======Contexts===========================
-import { ViewportContext } from "../../contexts/ViewportContext.jsx";
+import { ViewportContext } from "../../contexts/ViewportContext";
 //======Images===========================
 import placeholderLandscape from "../../assets/placeholderLandscape.png"
 
-const P_WorldTapestry = () => {
+const P_ProjectName = () => {
     const {screenSize} = useContext(ViewportContext);
 
   return (
     <>
       <Header/>
       <div className="main-content">
-        <h2>World's Tapestry</h2>
+        <h2>Project Name</h2>
         <PhotoComp_Prop
             image1={placeholderLandscape}
             image2={placeholderLandscape}
@@ -38,12 +38,7 @@ const P_WorldTapestry = () => {
             <a href="https://github.com/quietlycreeping">ProjectLink</a>
         </div>
         <p className="projectDescriptor">
-          Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
-          Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account 
-          lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-          Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack 
-          Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner 
-          gaff booty Jack Tar transom spirits.
+          short and sweet about
         </p>	
         {(screenSize == "small") && <button><Link to="/">{'\u21BA'} Back</Link></button>}
       </div>
@@ -51,4 +46,4 @@ const P_WorldTapestry = () => {
     </>
   )
 }
-export default P_WorldTapestry
+export default P_ProjectName

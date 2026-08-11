@@ -10,6 +10,9 @@ import ContextProviderList from "./ContextProviderList";
 import ProjectListPage from "./components/projects-homePage/ProjectListPage";
 import AboutPage from "./components/aboutPage/AboutPage";
 import PageNotFound from "./components/errorPage/PageNotFound";
+
+import P_ProjectName from "./components/project-page/P_WorldTapestry";
+import P_WorldTapestry from "./components/project-page/P_WorldTapestry";
 //======================================
 
 const App = () => (
@@ -20,6 +23,8 @@ const App = () => (
       <Route path="/" element={<ProjectListPage/>}/>
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="/*" element={<PageNotFound/>}/>
+
+      <Route path="worlds-tapestry" element={<P_WorldTapestry/>}/>
     </Routes>
   </HashRouter>
   </ContextProviderList>
