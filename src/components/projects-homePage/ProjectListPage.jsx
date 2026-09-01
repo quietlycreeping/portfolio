@@ -22,24 +22,28 @@ const ProjectListPage = () => {
             title="World's Tapestry" 
             image={placeholderLandscape} 
             body="I've sailed the seven seas, and you're the sleekest schooner I've ever sighted. " 
-            link="/worlds-tapestry"/>
+            link="/worlds-tapestry"
+          />
           <ProjectCard_Prop 
             title="Rx Dash" 
             image={placeholderLandscape} 
             body="The average man will bristle if you say his father was dishonest, but he 
               will brag a little if he discovers that his great- grandfather was a pirate." 
-            link="/about"/>
+            link="/about"
+          />
           <ProjectCard_Prop 
             title="Murder Mystery Companion" 
             image={placeholderLandscape} 
             body="Give me freedom or give me the rope. For I shall not take the shackles 
               that subjugate the poor to uphold the rich. " 
-            link="/about"/>
+            link="/about"
+          />
           <ProjectCard_Prop id="lastproject"
             title="This Site!" 
             image={placeholderLandscape} 
             body="Land was created to provide a place for boats to visit." 
-            link="/"/>
+            link="/"
+          />
           </div>
       </div>
       <Footer/>         

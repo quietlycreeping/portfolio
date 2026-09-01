@@ -22,25 +22,23 @@ const P_ProjectName = () => {
       <Header/>
       <div className="main-content">
         <h2>Project Name</h2>
-        <PhotoComp_Prop
-            image1={placeholderLandscape}
-            image2={placeholderLandscape}
-            image3={placeholderLandscape}
-            image4={placeholderLandscape}
-            image5={placeholderLandscape}
-        />
+        <div className="projectPhotos">
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+        </div>
         <div className="projectStructureTags">
             <p>Language</p>
             <p>Framework</p>
         </div>
         <div className="projectAboutTags">
             <a href="https://github.com/quietlycreeping">Repository</a>
-            <a href="https://github.com/quietlycreeping">ProjectLink</a>
+            <a href="https://github.com/quietlycreeping">Project_Link</a>
         </div>
         <p className="projectDescriptor">
           short and sweet about
         </p>	
-        {(screenSize == "small") && <button><Link to="/">{'\u21BA'} Back</Link></button>}
       </div>
       <Footer/>         
     </>

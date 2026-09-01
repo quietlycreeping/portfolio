@@ -3,32 +3,26 @@
  Date:       July 2026
  Description: Projectpage with various components
 ==========================================================*/
-import { useContext } from "react";
 import { Link } from "react-router-dom";
 //======Components===========================
 import Header from "../header-footer/Header.jsx"
 import Footer from "../header-footer/Footer.jsx";
-import PhotoComp_Prop from "./PhotoComp_Prop.jsx";
-//======Contexts===========================
-import { ViewportContext } from "../../contexts/ViewportContext.jsx";
 //======Images===========================
 import placeholderLandscape from "../../assets/placeholderLandscape.png"
 
 const P_WorldTapestry = () => {
-    const {screenSize} = useContext(ViewportContext);
 
   return (
     <>
       <Header/>
       <div className="main-content">
         <h2>World's Tapestry</h2>
-        <PhotoComp_Prop
-            image1={placeholderLandscape}
-            image2={placeholderLandscape}
-            image3={placeholderLandscape}
-            image4={placeholderLandscape}
-            image5={placeholderLandscape}
-        />
+        <div className="projectPhotos">
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+        </div>
         <div className="projectStructureTags">
             <p>Language</p>
             <p>Framework</p>
@@ -45,7 +39,6 @@ const P_WorldTapestry = () => {
           Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner 
           gaff booty Jack Tar transom spirits.
         </p>	
-        {(screenSize == "small") && <button><Link to="/">{'\u21BA'} Back</Link></button>}
       </div>
       <Footer/>         
     </>
