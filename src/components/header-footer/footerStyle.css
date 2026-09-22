@@ -13,12 +13,14 @@ footer{
 .footerLinks{
     align-self: center;
     justify-self: center;
-}
-
-a{
+    
+    a{
     margin-right: 1rem;
     margin-left: 1rem;
+    }
 }
+
+
 
 .copyright{
     align-self: end;

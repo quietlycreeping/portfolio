@@ -16,7 +16,7 @@ nav.navbar{
 }
 
 #website-title{
-    font-size:  2.3rem;
+    font-size:  2.2rem;
     font-family: var(--header);
 
     color: white;
@@ -43,4 +43,5 @@ button{
     width: 6.5em;
     height: 1.75em;
     margin: 0.2em;
+    
 }

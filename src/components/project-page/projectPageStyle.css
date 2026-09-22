@@ -38,6 +38,16 @@
     margin-top: 2rem;
 }
 
+#textlink
+{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    margin: 0.2em;;
+}
+#textlink:hover{
+    color: var(--primary);
+}
+
 /*===== RIGHT COLUMN =====*/
 .photos_right
 {

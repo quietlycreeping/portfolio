@@ -29,20 +29,20 @@ const ProjectListPage = () => {
             image={placeholderLandscape} 
             body="The average man will bristle if you say his father was dishonest, but he 
               will brag a little if he discovers that his great- grandfather was a pirate." 
-            link="/about"
+            link="/rx-dash"
           />
           <ProjectCard_Prop 
-            title="Murder Mystery Companion" 
+            title="Murder Mystery Companions" 
             image={placeholderLandscape} 
             body="Give me freedom or give me the rope. For I shall not take the shackles 
               that subjugate the poor to uphold the rich. " 
-            link="/about"
+            link="/mystery-app"
           />
           <ProjectCard_Prop id="lastproject"
             title="This Site!" 
             image={placeholderLandscape} 
             body="Land was created to provide a place for boats to visit." 
-            link="/"
+            link="/portfolio"
           />
           </div>
       </div>
