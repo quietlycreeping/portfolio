@@ -1,0 +1,54 @@
+.project_columns
+{
+    display: grid;
+    justify-content: center;
+    align-items: start;
+    grid-template-columns: auto 40%;
+}
+
+/*===== LEFT COLUMN =====*/
+.projectTags{
+    justify-items: space-evenly;
+    .structureTag{
+        background-color: var(--tertiary);
+        border-radius: 8px;
+
+        padding: 0.4em;
+        margin: 0.3em;
+    }
+    span{
+        margin: 2em;
+    }
+    a{
+        background-color: var(--secondary);
+        border-radius: 8px;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+
+        padding: 0.4em;
+        margin: 0.3em;  
+    }
+    a:hover{
+        color: var(--primary);
+    }
+}
+
+.projectDescriptor
+{
+    margin-top: 2rem;
+}
+
+/*===== RIGHT COLUMN =====*/
+.photos_right
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    img{
+        width: 18rem;
+        height: auto;
+        margin: 0.6em; 
+    }
+}
+

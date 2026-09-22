@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 //======Files===========================
 import "./headerStyle.css";
 import logo from "../../assets/logo.png";
+import JOrlandoresume from "../../assets/JOrlandoresume.pdf";
 
 const Header = () =>   
 { 
@@ -23,7 +24,7 @@ const Header = () =>
       </div>
       <div className="header-right">
         <button><Link to="/">Projects</Link></button>
-        <button>Resume</button>
+        <button><a target="_blank" rel="author" href={JOrlandoresume}>Resume</a></button>
         <button><Link to="/about">About Me</Link></button>
       </div>
     </nav>
