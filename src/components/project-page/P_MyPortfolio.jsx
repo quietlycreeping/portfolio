@@ -23,7 +23,7 @@ const P_MyPortfolio = () => {
           <div className="project_left">
 
             <div className="projectTags">
-                <span className="structureTag">React JS</span>
+                <span className="structureTag">ReactJS</span>
                 <span className="structureTag">Vite</span>
 
                 <span/>

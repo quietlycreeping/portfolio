@@ -24,7 +24,8 @@ const P_WorldTapestry = () => {
           <div className="project_left">
 
             <div className="projectTags">
-                <span className="structureTag">React JS</span>
+                <span className="structureTag">ReactJS</span>
+                <span className="structureTag">SQL</span>
                 <span className="structureTag">Vite</span>
 
                 <span/>
@@ -34,12 +35,10 @@ const P_WorldTapestry = () => {
             </div>
             <p className="projectDescriptor">
               Collaboration with Chase Brown, Sean Kehoe, Mohammed Qudaih, and Rory Strachan <br/><br/>
-              Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
-              Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account 
-              lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-              Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack 
-              Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner 
-              gaff booty Jack Tar transom spirits.
+              We aimed to create a space where people from like-minded communities could connect and ask questions, while also making sure the 
+              barrier to entry would be free and straightforward. <br/>
+              This project was a team effort. I was in charge of the design, and assisted with the front end and technical document. 
+              The design and logo are meant to invoke community and how everyone is interwoven together.
             </p>
           </div>
 

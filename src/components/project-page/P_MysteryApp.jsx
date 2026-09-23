@@ -34,14 +34,9 @@ const P_MysteryApp = () => {
                 <a target="_blank" rel="noopener external" href="https://quietlycreeping.github.io/MysteryCompanion_V2/pages/characters/ursula/home.html">Ursula's Site</a>
             </div>
             <p className="projectDescriptor">
-            Collaboration with
-            <a id="textlink" target="_blank" rel="noopener external" href="https://www.emilyorlando.design/">Emily Orlando</a><br/><br/>
-              Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
-              Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account 
-              lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-              Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack 
-              Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner 
-              gaff booty Jack Tar transom spirits. 
+              Collaboration with <a id="textlink" target="_blank" rel="noopener external" href="https://www.emilyorlando.design/">Emily Orlando</a><br/><br/>
+              These are two individual sites that followed the same template I created. The sites are currently separated by character
+              These projects do have improvements and features that can be added. I am currently working on rewriting the project in React.
             </p>
           </div>
 

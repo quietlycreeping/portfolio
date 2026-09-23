@@ -3,7 +3,6 @@
  Date:       July 2026
  Description: Homepage with various components
 ==========================================================*/
-import { useContext } from "react";
 //======Components===========================
 import Header from "../header-footer/Header.jsx"
 import Footer from "../header-footer/Footer.jsx";
@@ -21,7 +20,7 @@ const ProjectListPage = () => {
           <ProjectCard_Prop 
             title="World's Tapestry" 
             image={placeholderLandscape} 
-            body="I've sailed the seven seas, and you're the sleekest schooner I've ever sighted. " 
+            body="A community focused social media, forum website. It was a collaborative school group project with 5 group members." 
             link="/worlds-tapestry"
           />
           <ProjectCard_Prop 
@@ -29,20 +28,20 @@ const ProjectListPage = () => {
             image={placeholderLandscape} 
             body="The average man will bristle if you say his father was dishonest, but he 
               will brag a little if he discovers that his great- grandfather was a pirate." 
-            link="/rx-dash"
+            link="/about"
           />
           <ProjectCard_Prop 
-            title="Murder Mystery Companions" 
+            title="Murder Mystery Companion" 
             image={placeholderLandscape} 
-            body="Give me freedom or give me the rope. For I shall not take the shackles 
-              that subjugate the poor to uphold the rich. " 
-            link="/mystery-app"
+            body="Static websites meant to aid party guests during an in-person murder mystery game. Personal project working personally with an art director."
+
+            link="/about"
           />
           <ProjectCard_Prop id="lastproject"
             title="This Site!" 
             image={placeholderLandscape} 
             body="Land was created to provide a place for boats to visit." 
-            link="/portfolio"
+            link="/"
           />
           </div>
       </div>
