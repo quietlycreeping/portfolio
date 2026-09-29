@@ -24,7 +24,7 @@ const Header = () =>
       </div>
       <div className="header-right">
         <button><Link to="/">Projects</Link></button>
-        <button><a target="_blank" rel="author" href={JOrlandoresume}>Resume</a></button>
+        <button><a target="_blank" rel="author" href={JOrlandoresume} width="50%">Resume</a></button>
         <button><Link to="/about">About Me</Link></button>
       </div>
     </nav>

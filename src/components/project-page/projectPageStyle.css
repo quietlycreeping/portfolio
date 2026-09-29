@@ -7,8 +7,17 @@
 }
 
 /*===== LEFT COLUMN =====*/
+.projectDescriptor
+{
+    margin-right: 2rem;
+    line-height: 1.6;
+}
+
+
+/*===== RIGHT COLUMN =====*/
 .projectTags{
     justify-items: space-evenly;
+    font-size: 1.2rem;
     .structureTag{
         background-color: var(--tertiary);
         border-radius: 8px;
@@ -33,11 +42,6 @@
     }
 }
 
-.projectDescriptor
-{
-    margin-top: 2rem;
-}
-
 #textlink
 {
     text-decoration-line: underline;
@@ -48,17 +52,25 @@
     color: var(--primary);
 }
 
-/*===== RIGHT COLUMN =====*/
-.photos_right
+/*===== BOTTOM ROW =====*/
+.photos_bottom
 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     
     img{
-        width: 18rem;
+        width: 25rem;
         height: auto;
-        margin: 0.6em; 
+        margin: 0.6em;
+        border-radius: 0.4em; 
+    }
+
+    .verticalPhoto{
+    width: auto;
+    height: 30rem;
     }
 }
+
+
 

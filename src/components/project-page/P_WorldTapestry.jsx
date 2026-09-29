@@ -21,35 +21,33 @@ const P_WorldTapestry = () => {
       <div className="main-content">
         <h2 className="page-title">World's Tapestry</h2>
         <div className="project_columns">
-          <div className="project_left">
+          <p className="projectDescriptor">
+            Collaboration with Chase Brown, Sean Kehoe, Mohammed Qudaih, and Rory Strachan <br/><br/>
+            We aimed to create a space where people from like-minded communities could connect and ask questions, while also making sure the 
+            barrier to entry would be free and straightforward. <br/>
+            This project was a team effort. I was in charge of the design, and assisted with the front end and technical document. 
+            The design and logo are meant to invoke community and how everyone is interwoven together.
+          </p>
 
-            <div className="projectTags">
-                <span className="structureTag">ReactJS</span>
-                <span className="structureTag">SQL</span>
-                <span className="structureTag">Vite</span>
+          <div className="projectTags">
+              <span className="structureTag">ReactJS</span>
+              <span className="structureTag">SQL</span>
+              <span className="structureTag">Vite</span>
 
-                <span/>
+              <br/><br/>
 
-                <a target="_blank" rel="noopener external" href="https://github.com/cbrown2121/Worlds_Tapestry">Repository</a>
-                <a target="_blank" rel="author" href={Worlds_Tapestry_Documentation}>Documentation</a>
-            </div>
-            <p className="projectDescriptor">
-              Collaboration with Chase Brown, Sean Kehoe, Mohammed Qudaih, and Rory Strachan <br/><br/>
-              We aimed to create a space where people from like-minded communities could connect and ask questions, while also making sure the 
-              barrier to entry would be free and straightforward. <br/>
-              This project was a team effort. I was in charge of the design, and assisted with the front end and technical document. 
-              The design and logo are meant to invoke community and how everyone is interwoven together.
-            </p>
+              <a target="_blank" rel="noopener external" href="https://github.com/cbrown2121/Worlds_Tapestry">Repository</a>
+              <a target="_blank" rel="author" href={Worlds_Tapestry_Documentation}>Documentation</a>
           </div>
+        </div>
 
-          <div className="photos_right">
-              <img src={placeholderLandscape}/>
-              <img src={placeholderLandscape}/>
-              <img src={placeholderLandscape}/>
-              <img src={placeholderLandscape}/>
-          </div>
-        </div>	
-      </div>
+        <div className="photos_bottom">
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+            <img src={placeholderLandscape}/>
+        </div>
+      </div>	
       <Footer/>         
     </>
   )

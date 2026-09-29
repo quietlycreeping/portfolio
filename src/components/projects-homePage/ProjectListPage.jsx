@@ -9,6 +9,11 @@ import Footer from "../header-footer/Footer.jsx";
 import ProjectCard_Prop from "./ProjectCard_Prop.jsx";
 //======Images===========================
 import placeholderLandscape from "../../assets/placeholderLandscape.png"
+import rxdash_title from "../../assets/RxDash/rxdash_title.jpg"
+import mystery_title from "../../assets/MurderMystery/mystery_title.jpg"
+import portfolio_title from "../../assets/ThisSite/portfolio_title.jpg"
+
+
 
 const ProjectListPage = () => {
   return (
@@ -25,21 +30,21 @@ const ProjectListPage = () => {
           />
           <ProjectCard_Prop 
             title="Rx Dash" 
-            image={placeholderLandscape} 
+            image={rxdash_title} 
             body="The average man will bristle if you say his father was dishonest, but he 
               will brag a little if he discovers that his great- grandfather was a pirate." 
             link="/rx-dash"
           />
           <ProjectCard_Prop 
             title="Murder Mystery Companion" 
-            image={placeholderLandscape} 
+            image={mystery_title} 
             body="Static websites meant to aid party guests during an in-person murder mystery game. Personal project working personally with an art director."
 
             link="/mystery-app"
           />
           <ProjectCard_Prop id="lastproject"
             title="This Site!" 
-            image={placeholderLandscape} 
+            image={portfolio_title} 
             body="Land was created to provide a place for boats to visit." 
             link="/portfolio"
           />

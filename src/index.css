@@ -45,7 +45,6 @@ h2 {
   font-family: var(--subheading);
   font-weight: 700;
   font-size: 1.6rem;  
-  line-height: 1em;
 
   color: var(--text);
 }
