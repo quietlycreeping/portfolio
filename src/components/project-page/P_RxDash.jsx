@@ -24,12 +24,9 @@ const P_RxDash = () => {
         <h2 className="page-title">Rx Dash</h2>
         <div className="project_columns">
           <p className="projectDescriptor">
-            Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
-            Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account 
-            lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.
-            Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack 
-            Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner 
-            gaff booty Jack Tar transom spirits.
+            I am a pharmacy technician and I wanted to merge my pharmacy experience with code. 
+            So I created a timem-anagement game, taking inspiration from Overcooked and Dinner Dash. <br/>
+            The game has a countdown clock, pathfinding, and a randomized que. 
           </p>
 
           <div className="projectTags">
