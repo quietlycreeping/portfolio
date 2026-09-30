@@ -16,7 +16,7 @@ const Header = () =>
     <nav className="navbar">
       <div className="header-left">
         <Link to="/">
-          <img src={logo} alt="logo"/>
+          <img src={logo} alt="logo" id="logoimg"/>
         </Link>
         <Link to="/" id="website-title">
           Jennifer Orlando

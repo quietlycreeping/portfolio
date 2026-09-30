@@ -1,0 +1,23 @@
+
+#about_columns
+{
+    display: flex;
+    justify-content: start;
+    justify-items: start;
+    align-content: start;
+    align-items: start;
+    grid-template-columns: auto auto;
+}
+
+#aboutimage{
+    width: 15rem;
+    height: auto;
+    margin-right: 0.6em;
+    border-radius: 0.4em; 
+    justify-self: start;
+}
+
+#aboutblurb{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}

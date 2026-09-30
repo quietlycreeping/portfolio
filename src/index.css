@@ -28,7 +28,6 @@
   background-color: var(--background);
 }
 
-
 .main-content{
   padding: 0.75em;
   min-height: 87dvh;
@@ -55,6 +54,8 @@ p {
   font-size: 0.9rem;
 
   color: var(--text);
+
+  line-height: 1.6;
 }
 
 a {

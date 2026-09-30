@@ -9,8 +9,11 @@ import Header from "../header-footer/Header.jsx"
 import Footer from "../header-footer/Footer.jsx";
 import "./projectPageStyle.css"
 //======Images/Files===========================
-import placeholderLandscape from "../../assets/placeholderLandscape.png"
 import Worlds_Tapestry_Documentation from "../../assets/WorldsTapestry/Worlds_Tapestry_Documentation.pdf"
+import worldstapersty_1 from "../../assets/WorldsTapestry/worldstapersty_1.png"
+import worldstapersty_2 from "../../assets/WorldsTapestry/worldstapersty_2.png"
+import worldstapersty_3 from "../../assets/WorldsTapestry/worldstapersty_3.jpg"
+import worldstapersty_4 from "../../assets/WorldsTapestry/worldstapersty_4.png"
 
 
 const P_WorldTapestry = () => {
@@ -42,10 +45,10 @@ const P_WorldTapestry = () => {
         </div>
 
         <div className="photos_bottom">
-            <img src={placeholderLandscape}/>
-            <img src={placeholderLandscape}/>
-            <img src={placeholderLandscape}/>
-            <img src={placeholderLandscape}/>
+            <img src={worldstapersty_2}/>
+            <img src={worldstapersty_1}/>
+            <img src={worldstapersty_4}/>
+            <img src={worldstapersty_3} className="verticalPhoto"/>
         </div>
       </div>	
       <Footer/>         

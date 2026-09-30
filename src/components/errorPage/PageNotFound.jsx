@@ -8,7 +8,6 @@
 import Header from "../header-footer/Header"
 import Footer from "../header-footer/Footer"
 //======Images===========================
-import placeholderLandscape from "../../assets/placeholderLandscape.png"
 
 const PageNotFound = () => {
   return (
@@ -16,7 +15,6 @@ const PageNotFound = () => {
       <Header/>
       <div className="main-content">
         <h2>404 Error</h2>
-        <img className="projectMainImage" src={placeholderLandscape}/>
         <p>Oops! The page you're looking for does not exist.</p>
       </div>  
       <Footer/>       

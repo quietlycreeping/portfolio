@@ -7,8 +7,9 @@
 //======Components===========================
 import Header from "../header-footer/Header"
 import Footer from "../header-footer/Footer"
+import "./aboutPageStyle.css"
 //======Images===========================
-import placeholderLandscape from "../../assets/placeholderLandscape.png"
+import me from "../../assets/profile/me.jpg"
 
 const AboutPage = () => {
   return (
@@ -16,16 +17,16 @@ const AboutPage = () => {
       <Header/>
       <div className="main-content">
         <h2>About Me</h2>
-        <img className="projectMainImage" src={placeholderLandscape}/>
-        <p>About Page here
-          Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. 
-          Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account 
-          lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.<br/><br/>
-          Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea 
-          cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.
-        </p>
-        <img className="projectMainImage" src={placeholderLandscape}/>
-        <img className="projectMainImage" src={placeholderLandscape}/>                
+        <div id="about_columns">
+          <img id="aboutimage" src={me}/>
+          <p id="aboutblurb"> Hi! I'm Jennifer Orlando.
+          <br/><br/>
+          I love adding a little whimsy and magic to my life, especially with coding. <br/>
+          Creating a working program from a few lines of code is truly magical! <br/><br/>
+          While I'm not coding I'm usually creating something else. <br/>
+          I make costumes, 3D models, and various other crafts.
+          </p> 
+        </div>             
       </div>  
       <Footer/>       
     </>
